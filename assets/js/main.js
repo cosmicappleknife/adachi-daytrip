@@ -70,12 +70,15 @@ document.querySelectorAll(".jump-icon").forEach(icon => {
 
         if(target){
 
-            target.scrollIntoView({
-
-                behavior:"smooth",
-
-                block:"center"
-
+            const targetTop =
+                target.getBoundingClientRect().top + window.scrollY;
+            
+            const scrollPosition =
+                targetTop - window.innerHeight * 0.4;
+            
+            window.scrollTo({
+                top: scrollPosition,
+                behavior: "smooth"
             });
 
         }
