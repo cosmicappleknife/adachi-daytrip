@@ -320,6 +320,12 @@ body{
 
 }
 
+.marker.cluture{
+
+    background:#288ef2;
+
+}
+
 .marker.gourmet{
 
     background:#d84b43;
@@ -424,6 +430,12 @@ body{
 
 }
 
+.card.cluture{
+
+    background:#e7f3ff;
+
+}
+
 .card.gourmet{
 
     background:#fff0ef;
@@ -460,6 +472,12 @@ body{
 .card.onsen::before{
 
     border-right-color:#fff3e7;
+
+}
+
+.card.onsen::before{
+
+    border-right-color:#e7f3ff;
 
 }
 
