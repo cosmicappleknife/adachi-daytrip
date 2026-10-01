@@ -1,2 +1,2 @@
-# ibaraki-daytrip
-Ibaraki Daytrip
+# adachi-daytrip
+Adachii Daytrip
