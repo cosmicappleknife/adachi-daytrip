@@ -39,6 +39,7 @@ body{
     --timeline-end-gap:95px;      /* 最後だけ大きく */
 
 
+
     --marker-size:24px;
     --line-width:4px;
 
@@ -79,7 +80,7 @@ body{
 
     object-fit:cover;
 
-    object-position:center 8%;
+    object-position:center 30%;
 
     display:block;
 
